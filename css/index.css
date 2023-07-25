@@ -1,0 +1,166 @@
+#wrap{}
+
+#header{
+    width: 100%;
+    height: 100px;
+    background-color: #472E27;
+}
+
+.head_inner{
+    width: 1080px;
+    height: 100px;
+    margin: 0 auto;
+}
+.menu{}
+.menu li{
+    float: left;
+    margin-top: 38px;
+}
+.menu li a{
+    display: block;
+    width: 40px;
+}
+
+.logo{
+    height: 100px;
+    padding-top: 25px;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+}
+
+.login{}
+
+.login li{
+    float: right;
+}
+.login li a{
+    display: block;
+    color: #EEE7DD;
+    margin-right: 50px;
+    margin-top: 43px;
+}
+
+#section{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.slide_img{
+    width: 100%;
+    height: 300px;
+}
+
+.move{
+    position: relative;
+}
+
+.move li{
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.move img{
+    width: 100%;
+}
+
+#contents{
+    width: 100%;
+}
+
+.main{
+    width: 100%;
+    height: 100px;
+    background-color: #B8AA95;
+    border-radius: 0 0 400px 400px;
+    padding: 0 510px;
+    text-align: center;
+}
+
+.main > li{
+    float: left;
+    margin: 0 100px;
+
+}
+.main > li > a{
+    display: block;
+    font-size: 20px;
+    color: white;
+    height: 100px;
+    line-height: 100px;
+}
+
+.main > li > a:hover{
+    font-weight: bold;
+}
+
+.title{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.box{
+    width: 980px;
+    margin: 0 auto;
+}
+
+.cont_box1{
+    width: 100%;
+    overflow: hidden;
+    /* margin: 100px 0; */
+}
+
+.cont_box1 > ul{
+    /* margin: 0 480px; */
+}
+.cont_box1 > ul > li{
+    float: left;
+    justify-content: space-between;
+}
+.cont_box1 ul li:first-child a{
+    margin-right: 80px;
+}
+
+
+.cont_box2{
+    width: 100%;
+    overflow: hidden;
+    margin: 100px 0;
+}
+.cont_box2 > ul{
+    margin: 0 480px;
+}
+.cont_box2 > ul > li{
+    float: left;
+}
+.cont_box2 > ul > li > a{}
+
+.cont_box2 > ul > li:nth-child(2) > a{
+    margin: 0 10px;
+}
+
+
+.cont_box3{
+    width: 100%;
+    overflow: hidden;
+    margin: 100px 0;
+}
+.cont_box3 > ul{
+    margin: 0 480px;
+}
+.cont_box3 > ul > li{
+    float: left;
+}
+.cont_box3 > ul > li > a{}
+
+.cont_box3 > ul > li > a > img{
+    width: 460px;
+}
+
+#footer{}
